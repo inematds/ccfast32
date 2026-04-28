@@ -175,15 +175,16 @@
     </div>
   </nav>
 
-  <!-- HERO SECTION — imagem livre -->
-  <section class="relative overflow-hidden min-h-[600px]">
-    <img src="doc/hero-scifi-2.png" alt="32 Hacks do Claude Code" class="w-full h-full object-cover object-top absolute inset-0">
-  </section>
+  <!-- HERO SECTION -->
+  <section class="relative overflow-hidden min-h-[600px] flex items-center justify-center">
+    <!-- Imagem livre de fundo -->
+    <div class="absolute inset-0">
+      <img src="doc/hero-scifi-2.png" alt="32 Hacks do Claude Code" class="w-full h-full object-cover object-top">
+    </div>
 
-  <!-- CARD DE APRESENTAÇÃO — entre hero e trilhas -->
-  <div class="bg-dark-900 border-b border-dark-600">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <div class="max-w-2xl">
+    <!-- Card centralizado com blur -->
+    <div class="relative z-10 w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 flex justify-center">
+      <div class="w-full max-w-2xl bg-dark-900/60 backdrop-blur-md rounded-2xl p-8 border border-white/5 shadow-2xl">
         <div class="flex items-center space-x-2 mb-6">
           <span class="inline-flex items-center px-3 py-1 bg-primary/10 border border-primary/40 text-primary text-xs font-bold rounded-full uppercase tracking-wider">
             ⚡ Curso Completo Gratuito
@@ -233,7 +234,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- O QUE VOCE VAI APRENDER — 3 Trilhas -->
   <section id="trilhas" class="py-20 border-t border-dark-600">
